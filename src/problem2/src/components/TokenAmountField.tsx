@@ -66,7 +66,7 @@ export function TokenAmountField({
           value={amount}
           onChange={(event) => onAmountChange?.(event.target.value)}
           readOnly={readOnly}
-          className="h-auto flex-1 border-none bg-transparent px-0 text-3xl font-semibold text-slate-100 focus-visible:ring-0 focus-visible:ring-offset-0"
+          className="h-auto flex-1 border-none bg-transparent px-0 text-4xl font-semibold text-slate-100 focus-visible:ring-0 focus-visible:ring-offset-0"
           placeholder="0.0"
         />
         <TokenSelect

@@ -494,7 +494,7 @@ function SwapCard() {
                     className={cn(
                       'rounded-full px-4',
                       slippage === option &&
-                        'shadow-lg shadow-cyan-500/40 text-slate-950',
+                        'shadow-lg shadow-cyan-500/40 text-white',
                     )}
                     onClick={() => setSlippage(option)}
                   >
